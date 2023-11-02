@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: orange;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+.menu-item {
+    height: 50px;
+    color: orange;
+    float: left;
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.menu-item:hover {
+    background-color: white;
+    color: green;
+}
+
+.scrolled {
+    background-color: red;
+}
